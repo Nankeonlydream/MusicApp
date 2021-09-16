@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>个人中心</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--头部区域-->
+<header class="header">
+  <div class="MineText">
+    <h1>我的</h1>
+    <!--搜索-->
+    <a class="searchIcon">
+      <img class="search" src="image/search.svg" alt="">
+    </a>
+    <!--扫码-->
+    <a class="scanCode" href="#">
+      <img class="scanCodeImg" src="image/scanCode.svg" alt="">
+    </a>
+    <!--设置-->
+    <a class="setting" href="#">
+      <img class="settingImg" src="image/setting.svg" alt="">
+    </a>
+  </div>
+</header>
+<!--用户信息栏-->
+<section class="section">
+  <div class="userContent">
+    <div class="userIcon">
+      <!--用户头像-->
+      <div class="userIconImg">
+        <img src="image/userIcon.png" alt="">
+      </div>
+      <!--用户信息名-->
+      <div class="userName">
+        <!--用户名+钻石-->
+        <div class="listUserHeader">
+          <a class="userName" href="#">去听三行情书</a>
+          <div class="diamond">
+            <img class="diamondImg" src="image/diamond.svg" alt="">
+          </div>
+        </div>
+        <!--svip+个性签名-->
+        <div class="contentFooter">
+          <!--VIP等级-->
+          <div class="vipLevel">
+            <a class="vipLink" href="#">svip</a>
+            <p class="signatureText">杀死一只知更鸟</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--邮件-->
+    <div class="email">
+      <img class="emailImg" src="image/email.svg" alt="">
+    </div>
+  </div>
+</section>
+<!--选项栏-->
+<div class="listContent">
+    <div class="music">
+      <span class="underLine">音乐</span>
+    </div>
+  <div>
+    <span>频道</span>
+  </div>
+  <div>
+    <span>帖子</span>
+  </div>
+</div>
+<!--功能-->
+<nav class="mediaBanner">
+  <!--收藏-->
+  <a class="banner" href="#">
+    <div class="listOption">
+      <div class="listLogo">
+        <img src="image/like.svg" alt="">
+      </div>
+      <div class="leftText">
+        <div class="collect">收藏<br><div class="quantity">101</div></div>
+      </div>
+    </div>
+  </a>
+  <!--最近-->
+  <a class="banner" href="#">
+    <div class="listOption">
+      <div class="listRecentLogo">
+        <img src="image/recent.svg" alt="">
+      </div>
+      <div class="leftText">
+        <div class="collect">最近<br><div class="quantity">41</div></div>
+      </div>
+    </div>
+  </a>
+  <!--本地-->
+  <a class="banner" href="#">
+    <div class="listOption">
+      <div class="listLocationLogo">
+        <img src="image/iphone.svg" alt="">
+      </div>
+      <div class="leftText">
+        <div class="collect">本地<br><div class="quantity">65</div></div>
+      </div>
+    </div>
+  </a>
+  <!--云盘-->
+  <a class="banner" href="#">
+    <div class="listOption">
+      <div class="listCloudLogo">
+        <img src="image/cloud.svg" alt="">
+      </div>
+      <div class="leftText">
+        <div class="collect">云盘<br><div class="quantity">45</div></div>
+      </div>
+    </div>
+  </a>
+</nav>
+<div class="songList">
+  <div class="leftArea">
+    <img src="image/DownArrow.svg" alt="">
+    <span>创建的歌单</span>
+    <div class="numberOfSongList">8</div>
+  </div>
+  <div class="rightArea">
+    <div class="addSong">
+      <img class="addSongList" src="image/add.svg" alt="">
+    </div>
+    <div class="multipleChoice">
+      <img class="addSongList" src="image/Multiple.svg" alt="">
+    </div>
+  </div>
+</div>
+<div class="songList">
+  <div class="leftArea">
+    <img src="image/DownArrow.svg" alt="">
+    <span>我收藏的歌单</span>
+    <div class="numberOfSongList">2</div>
+  </div>
+  <div class="rightArea">
+    <div class="multipleChoice">
+      <img class="addSongList" src="image/Multiple.svg" alt="">
+    </div>
+  </div>
+</div>
+<!--tabBar-->
+<div class="tabBar">
+  <div class="leftTabBarArea">
+    <img class="findIcon" src="image/find.svg" alt="">
+    <div>发现</div>
+  </div>
+  <div class="middleTabBarArea">
+  </div>
+  <div class="rightTabBarArea">
+    <img class="findIcon" src="image/user.svg" alt="">
+    <div>我的</div>
+  </div>
+</div>
+<script src="js/flexible.js"></script>
+</body>
+</html>
